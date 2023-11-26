@@ -1,0 +1,38 @@
+/* Task.css */
+.completed-task {
+  text-decoration: line-through;
+  /* Add any additional styles for completed tasks */
+}
+
+.edit-input {
+  /* Add styles for the input field during editing */
+  padding: 4px;
+  margin-right: 8px;
+}
+
+.save-button,
+.delete-button,
+.edit-button {
+  /* Add common styles for the buttons */
+  cursor: pointer;
+  padding: 6px 10px;
+  margin-left: 8px;
+}
+
+.save-button {
+  /* Add specific styles for the Save button */
+  background-color: #4caf50; /* Green */
+  color: white;
+}
+
+.delete-button {
+  /* Add specific styles for the Delete button */
+  background-color: #f44336; /* Red */
+  color: white;
+}
+
+.edit-button {
+  /* Add specific styles for the Edit button */
+  background-color: #2196f3; /* Blue */
+  color: white;
+}
